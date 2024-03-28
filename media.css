@@ -1,0 +1,90 @@
+/* mobile view */
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    .chat-button{
+      display: none;
+    }
+    .home {
+      margin-top: 50px;
+    }
+    .home h1{
+      font-size: 40px;
+    }
+    .card{
+      width: 100%;
+    }
+    .c-item{
+      height: 480px;
+    }
+    footer .container-fluid .card  .card-box .para br {
+      display: none;
+    }
+    footer .container-fluid .card  .card-box .form form input{
+      width: 100%;
+    }
+    .contact .contact-info .row {
+      display: flex;
+      flex-direction: column;
+    }
+    .copyright p {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (min-width: 500px) and (max-width: 780px) {
+    .c-item{
+      height: 480px;
+    }
+    .product-brand{
+      display: none;
+    }
+    footer .container-fluid .card  .card-box .para br {
+      display: none;
+    }
+    footer .container-fluid {
+      flex-direction: column;
+    }
+    .about .row {
+      flex-direction: column;
+    }
+    .contact .contact-info .row {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media only screen and (min-width: 780px) and (max-width: 1050px){
+    .card{
+      width: 300px;
+    }
+    footer .container-fluid .card  .card-box .para br {
+      display: none;
+    }
+    .contact .contact-info .row .col .icon {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  @media only screen and (min-width: 1050px) and (max-width: 1440px) {
+    .card{
+      width: 300px;
+    }
+    footer .container-fluid .card  .card-box .para br {
+      display: none;
+    }
+}
+
+/* testimonials reo=sponsive */
+
+@media (max-width: 1045px) {
+    .wrapper .box{
+      width: calc(50% - 10px);
+      margin: 10px 0;
+    }
+  }
+  @media (max-width: 702px) {
+    .wrapper .box{
+      width: 100%;
+    }
+  }
